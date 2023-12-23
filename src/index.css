@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  color: white;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  height: 100dvh;
+  background-color: black;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 10em;
+}
+
+.line {
+  height: 70%;
+  width: 20px;
+  background-color: greenyellow;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
